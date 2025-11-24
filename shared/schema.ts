@@ -50,9 +50,10 @@ export const users = pgTable("users", {
 // Stories table
 export const stories = pgTable("stories", {
   id: serial("id").primaryKey(),
-  title: text("title").notNull(),
+  title: varchar("title").notNull(),
   description: text("description").notNull(),
-  genre: text("genre").notNull(),
+  genre: varchar("genre").notNull(),
+  isPublic: boolean("is_public").notNull().default(false),
   wordLimit: integer("word_limit").notNull(),
   characterLimit: integer("character_limit").notNull().default(0), // 0 means no character limit
   maxSegments: integer("max_segments").notNull().default(30),

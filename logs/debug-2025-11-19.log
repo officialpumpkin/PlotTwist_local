@@ -1,0 +1,1 @@
+{"timestamp":"2025-11-19T11:46:43.115Z","level":"DEBUG","message":"Health check requested","data":{"timestamp":"2025-11-19T11:46:43.115Z","status":"OK","uptime":7.2304342,"memory":{"rss":379908096,"heapTotal":121479168,"heapUsed":92700592,"external":15388820,"arrayBuffers":8178518},"environment":"development","version":"1.0.0"}}

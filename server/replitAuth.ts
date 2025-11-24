@@ -51,7 +51,7 @@ export function getSession() {
     tableName: "sessions",
   });
   return session({
-    secret: process.env.SESSION_SECRET!,
+    secret: process.env.SESSION_SECRET ?? "default_secret_for_development",
     store: sessionStore,
     resave: false,
     saveUninitialized: false,

@@ -1,0 +1,4 @@
+{"timestamp":"2025-11-19T11:48:33.610Z","level":"WARN","message":"GET /api/auth/user 401 in 1ms","data":{"statusCode":401,"duration":1},"context":{}}
+{"timestamp":"2025-11-19T11:48:33.613Z","level":"WARN","message":"GET /api/users/settings 401 in 1ms","data":{"statusCode":401,"duration":1},"context":{}}
+{"timestamp":"2025-11-19T11:48:41.810Z","level":"WARN","message":"GET /api/auth/user 401 in 0ms","data":{"statusCode":401,"duration":0},"context":{}}
+{"timestamp":"2025-11-19T11:48:54.107Z","level":"WARN","message":"POST /api/auth/login 401 in 1484ms","data":{"statusCode":401,"duration":1484},"context":{}}
